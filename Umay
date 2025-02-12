@@ -1,6 +1,6 @@
 
 
-endtime = load("return os.time{year=2025, month=3, day=24, hour=0,min=00, sec=00}")()
+endtime = load("return os.time{year=2023, month=3, day=24, hour=0,min=00, sec=00}")()
 if os.time() > endtime then
 gg.alert("sᴄʀɪᴘᴛ ᴇxᴘɪʀᴇᴅ ᴛʜɪs sᴄʀɪᴘᴛ ᴡɪʟʟ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ.")
 Detector = gg.getFile():match("[^/]+$")
